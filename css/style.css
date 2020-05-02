@@ -1,0 +1,179 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif
+}
+
+a{
+	text-decoration: none;
+}
+
+.nav-menu{
+	min-width: 8%;
+	width: auto;
+	top: 0;
+	background-color: black;
+	list-style-type: none;
+	display: inline-block;
+	position: fixed;
+	left: 7%;
+	color: white;
+	padding: 0px;
+}
+
+.nav-menu:hover{
+	cursor: pointer;
+}
+
+
+.none{
+	text-align: center;
+	background-color: #D3D3D3;
+	color: black;
+	padding: 10px; 
+	padding-bottom: 1px;
+}
+
+.none hr{
+	height: 2px;
+	background-color: black;
+}
+
+.menu-pos{
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
+
+.menu-pos a:hover{
+	color: white;
+	color: black;
+}
+
+
+.menu-pos:hover{
+	color: black;
+	background-color: #D3D3D3;
+}
+
+.f1-info{
+	padding: 1%;
+	text-align: center;
+	background-color: #D3D3D3;
+}
+
+.config{
+	list-style-type: none;
+	text-align: left;
+}
+
+img{
+	border-radius: 5px;
+}
+
+.f2-info{
+	padding: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	background-color: #D3D3D3;
+}
+
+.f2-text{
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+
+.f2-info hr{
+	background-color: black;
+	height: 1px;
+	width: 90%;
+}
+
+.f2-quote{
+	font-size: 25px;
+	padding-bottom: 20px;
+	font-style: italic;
+	border-left: 2px solid black;
+	padding: 20px;
+}
+
+.f2-photo img{
+	width: 50%;
+}
+.f2-photo p{
+	font-size: 20px;
+}
+
+.f3-info{
+	padding: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	background-color: #D3D3D3;
+}
+
+.f3-disk tr{
+	padding: 100px;
+}
+
+.f3-disk td{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid black; 
+	text-align: center;
+	font-size: 25px;
+	font-style: italic;
+	border-radius: 20px;
+}
+
+.f3-info img{
+	width: auto;
+}
+
+.f4-info{
+	padding: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	background-color: #D3D3D3;
+}
+
+.f4-photo{
+	text-align: center;
+}
+
+.f4-photo img{
+	width: auto;
+	width: 300px;
+	height: 200px;
+}
+
+.f5-info{
+	padding: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	background-color: #D3D3D3;
+}
+
+.f5-info a{
+	text-decoration: underline;
+	font-size: 20px;
+}
+
+.f5-photo{
+	text-align: center;
+}
+
+.f5-photo img{
+	width: 420px;
+	height: 250px;
+}
+
+.f6-photo{
+	text-align: center;
+}
+
+.f6-photo img{
+	width: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 30px;
+}
